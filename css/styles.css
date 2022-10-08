@@ -1,9 +1,16 @@
 a {
 
-   justify-content: stretch;
-    display: inline-flexbox;
-    align-items: baseline;
-justify-content: space-between;
+   position: relative;
+   top: 2rem;
+   left: 2rem;
+   right: 2rem;
+   bottom: 2rem;
+
+
+
+margin-top: 2rem;
+margin-left: 2rem;
 
 }
+
 
