@@ -166,7 +166,7 @@ ul {
     margin-bottom: 180px;
 }
 .skills-title {
-    display: block;
+   
     width: 100px;
     margin: 0 auto 60px;
 
@@ -256,6 +256,7 @@ ul {
 .about-container {
     display: flex;
     justify-content: space-between;
+    padding-left: 50px;
 }
 .about-title {
     font-weight: 600;
@@ -291,9 +292,71 @@ ul {
     
     color: #2A3246;    
 }
-.about-aside {
+/*pricing*/
+.pricing {
+    margin-bottom: 180px;
+}
+.pricing-title {
+    margin: 0 auto 60px;
+    width: 100px;
+
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    color: #000000;    
+}
+.pricing-list {
+    display: flex;
+    gap: 30px;
 
 }
+.pricing-item {
+
+}
+.pricing-item h3 {
+    margin: 30px 0 20px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    text-transform: capitalize;
+    
+    color: #263238;    
+}
+.pricing-item p {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    
+    color: #8F95A5;
+}
+.price {
+    display: flex;
+    align-items: baseline;
+    gap: 28px;
+    background: #EEEEEE;
+    border-radius: 5px;
+    width: 260px;
+    height: 45px;
+    text-align: center;
+    
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    
+    color: #546269;    
+}
+.price .price-value {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    
+    color: #263238;
+}
+
 
 /*footer*/
 .footer {
