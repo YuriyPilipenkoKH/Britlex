@@ -73,6 +73,7 @@ ul {
 }
 
 .btn {
+    display: inline-block;
     font-family: inherit;
     margin: 0;
     cursor: pointer;
@@ -102,7 +103,23 @@ ul {
 }
 
 /*hero*/
+.hero {
+    margin-bottom: 180px;
+}
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+}
+.hero-aside {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+
+}
 .hero-title {
+    display: block;
+    width: 386px;
     font-weight: 600;
     font-size: 64px;
     line-height: 80px;  
@@ -119,9 +136,8 @@ ul {
 .btn-hero {
     color: #ffffff;
     background-color: #263238;
-    margin-left: auto;
-    min-width: 298px;
-    min-height: 54px;
+    width: 426px;
+    min-height: 100px;
     padding: 23px 64px;
     border-radius: 10px;
 
@@ -131,10 +147,111 @@ ul {
     letter-spacing: 0.03em;
       
 }
+.lamp {
+    position: absolute;
+    left: 425px;
+    top: 100px;
+    scale: 1.5;
+}
 .section-title {
     font-weight: 600;
     font-size: 48px;
     line-height: 72px;    
+}
+.main-picture {
+    
+}
+/*skills*/
+.skills {
+    margin-bottom: 180px;
+}
+.skills-title {
+    display: block;
+    width: 100px;
+    margin: 0 auto 60px;
+
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;    
+}
+.skills-list {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.skills-item h3 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    margin-bottom: 20px;    
+}
+.skills-item p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 350px;
+    margin: 20px 0 30px;
+    color: #8F95A5;    
+}
+.skills-item {
+    display: block;
+    width: 426px;
+   
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    padding-left: 18px;
+}
+.speaking {
+    margin: 32px auto 24px;
+}
+.writing {
+
+}
+.reading {
+
+}
+.listening {
+
+}
+.more {
+
+    color: #ffffff;
+    background-color: #263238;
+    width: 230px;
+    height: 60px;
+    padding: 23px 64px;
+    border-radius: 10px;
+    
+}
+.item-speaking {
+
+    padding-bottom: 154px;
+}
+.item-w-r {
+    height:  579px;
+
+}
+.item-listening {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  
+
+    display: flex;
+    justify-content: space-between;
+    width: 882px;
+    height: 338px;
+    margin-left: auto;
+    padding-right: 20px;
+    
+
+}
+/*about-*/
+.about-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;        
 }
 /*footer*/
 .footer {
