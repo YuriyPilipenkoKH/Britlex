@@ -2,6 +2,7 @@
     --main-color: #263238;
     --main-background: #ffffff;
     --title-cl: #000000;
+    --logo1-cl:  #939393;
 }
 
 body {
@@ -45,6 +46,15 @@ ul {
 }
 .logo {
     margin-right: 236px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;  
+    color: var(--title-cl);
+    
+
+}
+.logo1 {
+    color: var(--logo1-cl);
 
 }
 .header-list {
@@ -52,20 +62,25 @@ ul {
    
 }
 .header-item {
+    padding: 75px 0;
     
+}
+.header-link {
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
     color: var(--main-color);
     padding: 75px 0;
-
 }
+
 .btn {
     margin: 0;
 
 }
 .btn-header {
     font-family: inherit;
+    color: var(--title-cl);
+    background-color: var(--main-background);
     margin-left: auto;
     min-width: 200px;
     min-height: 30px;
