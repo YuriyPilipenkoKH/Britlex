@@ -95,3 +95,28 @@ ul {
 .header-item {
 
 }
+
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer-list {
+    display: flex;
+    gap: 80px;
+}
+.footer-item {
+    padding: 31px 0 86px;
+}
+.footer-link {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    padding: 31px 0 86px;
+    
+    color: #8F95A5;    
+}
