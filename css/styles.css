@@ -248,11 +248,53 @@ ul {
 
 }
 /*about-*/
+.about {
+    margin-bottom: 180px;
+    
+    
+}
+.about-container {
+    display: flex;
+    justify-content: space-between;
+}
 .about-title {
     font-weight: 600;
     font-size: 48px;
     line-height: 72px;        
 }
+.about-description {
+    width: 650px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    margin: 60px 0 30px;
+    color: #8F95A5;    
+}
+.about-list {
+    display: flex;
+    justify-content: space-around;
+    width: 650px;
+}
+.about-list p {
+    
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #8F95A5;    
+}
+.about-list .numbers {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;  
+    
+    color: #2A3246;    
+}
+.about-aside {
+
+}
+
 /*footer*/
 .footer {
     display: flex;
