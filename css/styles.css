@@ -54,6 +54,23 @@ ul {
     color: var(--logo1-cl);
 
 }
+.header-container {
+    position: relative;
+}
+.britlex-two {
+
+}
+.switch {
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    display: block;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #777;
+    border-radius: 2px;
+    transition: border 250ms var(--cubic);
+}
 .header-list {
     display: flex;
    
@@ -145,11 +162,15 @@ ul {
     letter-spacing: 0.03em;
       
 }
+
 .lamp {
     position: absolute;
     left: 425px;
     top: 100px;
     scale: 1.5;
+}
+.lamp-two {
+    rotate: 38deg;
 }
 .section-title {
     font-weight: 600;
