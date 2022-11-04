@@ -67,7 +67,7 @@ ul {
     display: block;
     width: 16px;
     height: 16px;
-    border: 2px solid #777;
+    border: 2px solid transparent;
     border-radius: 2px;
     transition: border 250ms var(--cubic);
 }
@@ -140,6 +140,15 @@ ul {
     line-height: 80px;  
     margin-bottom: 40px;
 }
+.hero-title-two {
+    display: block;
+    width: 386px;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 80px;  
+    margin-bottom: 40px;    
+}
+
 .hero-description {
     margin-bottom: 60px;
     font-weight: 400;
@@ -162,6 +171,18 @@ ul {
     letter-spacing: 0.03em;
       
 }
+.grid-hero {
+    position: relative;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+  
+  
+}
+.hero-grid {
+    outline: 1px solid blue;
+
+}
 
 .lamp {
     position: absolute;
@@ -170,7 +191,13 @@ ul {
     scale: 1.5;
 }
 .lamp-two {
+    position: absolute;
     rotate: 38deg;
+    left: 425px;
+    top: 120px;
+    scale: 1.2;
+    fill: crimson;
+
 }
 .section-title {
     font-weight: 600;
@@ -183,6 +210,12 @@ ul {
 /*skills*/
 .skills {
     margin-bottom: 180px;
+}
+.grid-skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 30px;
 }
 .skills-title {
    
@@ -224,15 +257,7 @@ ul {
 .speaking {
     margin: 32px auto 24px;
 }
-.writing {
 
-}
-.reading {
-
-}
-.listening {
-
-}
 .more {
 
     color: #ffffff;
