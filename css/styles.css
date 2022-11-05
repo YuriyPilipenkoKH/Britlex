@@ -151,6 +151,7 @@ ul {
 }
 
 .hero-description {
+    width: 540px;
     margin-bottom: 60px;
     font-weight: 400;
     font-size: 24px;
