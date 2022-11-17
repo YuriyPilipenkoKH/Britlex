@@ -533,3 +533,18 @@ color: #263238;
     
     color: #8F95A5;    
 }
+.about {
+    display: grid;
+}
+.about-container {
+    /* display: flex; */
+}
+.about-content {
+
+}
+.about-list {
+
+}
+.about-item {
+
+}
